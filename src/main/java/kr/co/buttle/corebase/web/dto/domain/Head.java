@@ -8,21 +8,21 @@ import java.util.Map;
 public class Head extends HashMap<String, Object> {
     private static final long serialVersionUID = 5506763069627612077L;
 
-    public static final String APP_NAME = "appName";
-    public static final String ACTION = "action";
-    public static final String CLIENT_IP = "clientIp";
-    public static final String RESPONSE_TYPE = "responseType";
-    public static final String METHOD = "method";
-    public static final String RESPONSE_LEVEL = "responseLevel";
-    public static final String RESPONSE_TITLE = "responseTitle";
-    public static final String RESPONSE_DETAIL = "responseDetail";
-    public static final String RESPONSE_TIME = "responseTime";
+    public static final String APP_NAME         = "appName";
+    public static final String ACTION           = "action";
+    public static final String CLIENT_IP        = "clientIp";
+    public static final String RESPONSE_TYPE    = "responseType";
+    public static final String METHOD           = "method";
+    public static final String RESPONSE_LEVEL   = "responseLevel";
+    public static final String RESPONSE_TITLE   = "responseTitle";
+    public static final String RESPONSE_DETAIL  = "responseDetail";
+    public static final String RESPONSE_TIME    = "responseTime";
     public static final String RESPONSE_SESSION = "responseSession";
-    public static final String USER_ID = "userId";
-    public static final String USER_NAME = "userName";
-    public static final String USER_GRADE = "userGrade";
-    public static final String CONTENT_TYPE = "contentType";
-    public static final String RESPONSE_COUNT = "responseCount";
+    public static final String USER_ID          = "userId";
+    public static final String USER_NAME        = "userName";
+    public static final String USER_GRADE       = "userGrade";
+    public static final String CONTENT_TYPE     = "contentType";
+    public static final String RESPONSE_COUNT   = "responseCount";
 
     public String getAppName() {
         return (String) get(APP_NAME);
